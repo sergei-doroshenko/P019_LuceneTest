@@ -18,13 +18,13 @@ import java.io.IOException;
 
 public class Searcher {
 
-public static void main(String[] args) throws IllegalArgumentException, IOException, ParseException {
+    public static void main(String[] args) throws IllegalArgumentException, IOException, ParseException {
 
-    String indexDir = "tmp2/index";               //1
-    String q = "hello";                      //2
+        String indexDir = "tmp2/index";               //1
+        String q = "hello";                      //2
 
-    search(indexDir, q);
-}
+        search(indexDir, q);
+    }
 
     public static void search(String indexDir, String q) throws IOException, ParseException {
 
